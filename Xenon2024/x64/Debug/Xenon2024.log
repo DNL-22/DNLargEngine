@@ -1,2 +1,2 @@
 ﻿  Xenon2024.cpp
-  Xenon2024.vcxproj -> H:\dev\DNLargEngine\x64\Debug\Xenon2024.exe
+H:\dev\DNLargEngine\Xenon2024\src\Xenon2024.cpp(11,20): error C2059: syntax error: '.'

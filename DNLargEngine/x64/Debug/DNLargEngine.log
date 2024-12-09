@@ -1,2 +1,13 @@
 ﻿  Engine.cpp
-  DNLargEngine.vcxproj -> H:\dev\DNLargEngine\x64\Debug\DNLargEngine.dll
+Engine.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: void __cdecl GameEngine::Engine::start(void)" (?start@Engine@GameEngine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: void __cdecl GameEngine::Engine::start(void)" (?start@Engine@GameEngine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: void __cdecl GameEngine::Engine::start(void)" (?start@Engine@GameEngine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: void __cdecl GameEngine::Engine::start(void)" (?start@Engine@GameEngine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: void __cdecl GameEngine::Engine::start(void)" (?start@Engine@GameEngine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl GameEngine::Engine::start(void)" (?start@Engine@GameEngine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: void __cdecl GameEngine::Engine::start(void)" (?start@Engine@GameEngine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: void __cdecl GameEngine::Engine::start(void)" (?start@Engine@GameEngine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "public: void __cdecl GameEngine::Engine::start(void)" (?start@Engine@GameEngine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: void __cdecl GameEngine::Engine::start(void)" (?start@Engine@GameEngine@@QEAAXXZ)
+Engine.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: void __cdecl GameEngine::Engine::start(void)" (?start@Engine@GameEngine@@QEAAXXZ)
+H:\dev\DNLargEngine\x64\Debug\DNLargEngine.dll : fatal error LNK1120: 11 unresolved externals
